@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Typical from 'react-typical'
+import Typical from 'react-typical'
 const Home = () => {
 
 
@@ -24,8 +24,8 @@ const Home = () => {
           </div>
           <div className="card-body grid justify-center items-center w-80 lg:w-full">
             <h1 className='lg:text-4xl text-xl'>Hello! I'm Mofassel Hosain</h1>
-            <p><span>I am a</span>  <h1 className='font-bold text-xl'>
-                                {/* <Typical
+            <p className='flex'><h1 className='font-bold text-green-500  lg:text-2xl'>
+                                <Typical
                                     loop={Infinity}
                                     steps={[
                                         "Web Developer ",
@@ -39,7 +39,7 @@ const Home = () => {
                                         "React Developer",
                                         2000,
                                     ]}
-                                /> */}
+                                />
                             </h1></p>
 
           </div>
